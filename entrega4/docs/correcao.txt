@@ -1,0 +1,13 @@
+Grupo - 9
+
+Descrição do sistema:
+
+O segundo parágrafo da descrição do sistema não é necessário, pois está descrevendo os relacionamentos entre as entidades, isso já é feito pelo modelo conceitual.
+
+Para isso, o banco de dados foi estruturado considerando as relações existentes entre alunos, planos, aulas e instrutores. Cada aluno pode estar vinculado a um plano de assinatura e participar de diferentes aulas, enquanto os instrutores são associados às atividades que ministram. Como uma mesma aula pode receber vários alunos, foi necessário estabelecer uma relação que permitisse registrar essas inscrições individualmente. Dessa forma, o sistema consegue representar não apenas os cadastros, mas também a maneira como essas informações se relacionam dentro da academia
+
+
+Modelagem lógica:
+
+Sugestão utilizar o nome matricula para a tabela de relacionamento entre Aluno e Aula.
+
